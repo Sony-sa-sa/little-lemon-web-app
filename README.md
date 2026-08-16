@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Little Lemon — Django сайт
 
 ## Запуск проекта
@@ -72,3 +73,7 @@ littlelemon/
 Изображения для блюд добавляются только через Django Admin (поле `image`
 в форме модели), они сохраняются в `media/menu_images/` и раздаются
 благодаря `MEDIA_URL`/`MEDIA_ROOT` в `settings.py`.
+=======
+# little-lemon-web-app
+Django REST API for Little Lemon restaurant.
+>>>>>>> 8decb8c98db94547c440c2e5fd21253fcdde8b81
