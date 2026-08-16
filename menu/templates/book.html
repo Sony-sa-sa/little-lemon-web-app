@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Little Lemon — Бронирование{% endblock %}
+
+{% block content %}
+    <h1>Забронировать столик</h1>
+    <p>Форма бронирования скоро появится. Пока вы можете позвонить нам,
+       чтобы забронировать столик.</p>
+    <form>
+        <p>
+            <label>Ваше имя:<br>
+                <input type="text" name="name" placeholder="Иван Иванов">
+            </label>
+        </p>
+        <p>
+            <label>Дата и время:<br>
+                <input type="datetime-local" name="datetime">
+            </label>
+        </p>
+        <p>
+            <label>Количество гостей:<br>
+                <input type="number" name="guests" min="1" value="2">
+            </label>
+        </p>
+        <button class="btn" type="submit" disabled>Забронировать (скоро)</button>
+    </form>
+{% endblock %}
